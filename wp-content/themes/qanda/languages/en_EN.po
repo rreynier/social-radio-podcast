@@ -1,0 +1,1356 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. Text in function
+#: localize/single.php:18 localize/index.php:16 localize/category.php:16
+#: localize/search.php:24 localize/archive.php:28 localize/tag.php:20
+msgid "%"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:458
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:626
+msgid "%1$s, by <a href=\"%3$s\" title=\"%2$s\">%2$s</a>"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:451
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2912
+msgid "&larr; Previous"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:459 localize/custom_functions.php:476
+msgid "(Edit)"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:39 localize/page-edituser.php:108
+msgid "* E-mail"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:39
+msgid "* Name"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:136
+msgid "* Password"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:142
+msgid "* Repeat Password"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:39
+msgid "* YOUR COMMENT"
+msgstr ""
+
+#. Text in function
+#: localize/single.php:18 localize/index.php:16 localize/category.php:16
+#: localize/search.php:24 localize/archive.php:28 localize/tag.php:20
+msgid "0"
+msgstr ""
+
+#. Text in function
+#: localize/single.php:18 localize/index.php:16 localize/category.php:16
+#: localize/search.php:24 localize/archive.php:28 localize/tag.php:20
+msgid "1"
+msgstr ""
+
+#. Text in echo
+#: localize/404.php:10 localize/404.php:16
+msgid "404 - Not found!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2912
+msgid "<span class=\\\"page-numbers no-left-padding\\\">Pages: </span>"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:65
+msgid "About"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:164
+msgid "About yourself"
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:537
+msgid "Accept this Answer!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:566
+msgid "Add Comment"
+msgstr ""
+
+#. Text in function
+#: localize/single-podcast.php:47
+msgid "Add this Podcast to your favourites!"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:128 localize/custom_functions.php:2209
+msgid "Age"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:84
+msgid "Answer"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Answer Comments"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Answer accepted!"
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:2221
+msgid "Answer comment"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Answer has been rejected!"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:84
+msgid "Answer the Podcast"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Answer/Comment: "
+msgstr ""
+
+#. Text in echo
+#: localize/comments.php:69 localize/author.php:222
+msgid "Answers"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Author : %1$s"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:154 localize/custom_functions.php:2202
+msgid "Avatar URL"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid ""
+"Beware: Both Podcast and Answer (answer comment too) content is saved "
+"simultaneously as HTML and Markdown. If you decide to edit either of these "
+"two be sure to edit correspondingly!"
+msgstr ""
+
+#. Text in echo
+#: localize/archive.php:13
+msgid "Blog Archives"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Can't proceed, you are not the author of this Comment."
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:39 localize/comments.php:84
+msgid "Cancel"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Check it out here: "
+msgstr ""
+
+#. Text in echo
+#: localize/page-askpodcast.php:64 localize/page-editpodcast.php:105
+msgid "Comma separated keywords, for example: lorem, ipsum, dolor"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:39 localize/custom_functions.php:611
+msgid "Comment"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Comment Meta"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Comment Type"
+msgstr ""
+
+#. Text in echo
+#: localize/comments.php:33 localize/comments.php:82
+msgid "Comments are closed!"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:144
+msgid "Confirm new password by typing it once again."
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:84 localize/page-askpodcast.php:47
+#: localize/page-editpodcast.php:75 localize/page-editanswer.php:70
+msgid "Content"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:84 localize/page-edituser.php:170
+#: localize/page-askpodcast.php:53 localize/page-editpodcast.php:81
+#: localize/page-editanswer.php:76
+msgid "Content Preview:"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:84 localize/page-askpodcast.php:51
+#: localize/page-editpodcast.php:79 localize/page-editanswer.php:74
+msgid "Content is mandatory (between %1$s and %2$s characters)!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Content: Footer, column first"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Content: Footer, column fourth"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Content: Footer, column second"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Content: Footer, column third"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:157
+msgid "Create your own at"
+msgstr ""
+
+#. Text in function
+#: localize/archive.php:7
+msgid "Daily Archives: %s"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:637
+msgid "Delete?"
+msgstr ""
+
+#. Text in echo
+#: localize/contact.php:107
+msgid "E-mail"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:110
+msgid "E-mail is mandatory, don't leave it empty."
+msgstr ""
+
+#. Text in function
+#: localize/author.php:57
+msgid "EDIT PROFILE"
+msgstr ""
+
+#. Text in echo
+#: localize/single-podcast.php:114
+msgid "EDIT PODCAST"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:610
+msgid "ERROR: Comment should be at least %1$s and max %2$s characters long!"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:84 localize/page-askpodcast.php:52
+#: localize/page-editpodcast.php:80 localize/page-editanswer.php:75
+msgid "ERROR: Content should be at least %1$s and max %2$s characters long!"
+msgstr ""
+
+#. Text in function
+#: localize/page-askpodcast.php:41 localize/page-editpodcast.php:69
+msgid "ERROR: Podcast should be at least %1$s and max %2$s characters long!"
+msgstr ""
+
+#. Text in function
+#: localize/page-askpodcast.php:65 localize/page-editpodcast.php:106
+msgid "ERROR: Tags shouldn\\'t exceed %1$s characters in total!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:566
+msgid "Edit Answer"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:130
+msgid "Enter at will, it must be a number (integer)."
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:124 localize/page-edituser.php:169
+msgid "Enter at will."
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:138
+msgid "Enter new password here is you like to change old one."
+msgstr ""
+
+#. Text in echo
+#: localize/contact.php:128
+msgid "Enter the sum"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Entry content Admin: %s"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Entry content front-end: %s"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Error by connecting to Twitter!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Error, Answer can not be accepted! Please try again later."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Error, Answer can not be rejected! Please try again later."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Error, Comment can not be removed! Please try again later."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid ""
+"Error, this Podcast can not be added to your Favourites! Please try again "
+"later."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid ""
+"Error, this Podcast can not be removed from your Favourites! Please try "
+"again later."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Error, your vote can't be accepted! Please try again later."
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:2199
+msgid "Extra user info"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:222
+msgid "Favourites"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Few seconds"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:94
+msgid "First Name"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Footer Column First"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Footer Column Fourth"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Footer Column Second"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Footer Column Third"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2912
+msgid "Functional Navigation"
+msgstr ""
+
+#. Text in function
+#: localize/contact.php:1
+msgid "Incorrect!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "It has been reported by %1$s, %2$s"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:156
+msgid "It should be at least 124px wide!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Key"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:100
+msgid "Last Name"
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:158
+msgid "Leave empty if Gravatar is preferred."
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:122 localize/custom_functions.php:2215
+msgid "Location"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:608
+msgid "Min %1$s and max %2$s characters allowed!"
+msgstr ""
+
+#. Text in function
+#: localize/archive.php:9
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Myself photo"
+msgstr ""
+
+#. Text in echo
+#: localize/contact.php:102
+msgid "Name"
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:603
+msgid "Need help?"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "New Answer to your Podcast \"%1$s\""
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "New Answer: \"%1$s\""
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:27 localize/comments.php:76
+msgid "Next"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2912
+msgid "Next &rarr;"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:222
+msgid "No Answers found!"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:311
+msgid "No Favourites found!"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:222
+msgid "No Podcasts found!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "No related Podcasts found."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2912
+msgid "Nothing Found!"
+msgstr ""
+
+#. Text in echo
+#: localize/author.php:334 localize/single-podcast.php:143
+msgid "Notice!"
+msgstr ""
+
+#. Text in echo
+#: localize/taxonomy-podcast_category.php:32 localize/search-podcast.php:19
+#: localize/taxonomy-podcast_tags.php:18 localize/author.php:141
+#: localize/sc-allpodcasts.php:60
+msgid "Number of Answers"
+msgstr ""
+
+#. Text in echo
+#: localize/taxonomy-podcast_category.php:36 localize/search-podcast.php:23
+#: localize/taxonomy-podcast_tags.php:22 localize/custom_functions.php:515
+#: localize/author.php:140 localize/sc-allpodcasts.php:64
+#: localize/single-podcast.php:31
+msgid "Number of Votes"
+msgstr ""
+
+#. Text in echo
+#: localize/taxonomy-podcast_category.php:43 localize/search-podcast.php:30
+#: localize/taxonomy-podcast_tags.php:29 localize/author.php:143
+#: localize/sc-allpodcasts.php:71
+msgid "Number of this Podcast views"
+msgstr ""
+
+#. Text in echo
+#: localize/author.php:142 localize/author.php:280
+#: localize/single-podcast.php:46
+msgid "Number of times saved as a Favourite Podcast"
+msgstr ""
+
+#. Text in echo
+#: localize/author.php:205
+msgid "Number of votes for this very Answer!"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:84
+msgid "POST ANSWER"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:39
+msgid "POST COMMENT"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2912
+msgid "Page %s"
+msgstr ""
+
+#. Text in function
+#: localize/taxonomy-podcast_category.php:56 localize/search-podcast.php:43
+#: localize/index.php:29 localize/category.php:29 localize/search.php:37
+#: localize/taxonomy-podcast_tags.php:42 localize/archive.php:41
+#: localize/author.php:148 localize/author.php:290
+#: localize/sc-allpodcasts.php:84 localize/tag.php:33
+msgid "Permalink to %s"
+msgstr ""
+
+#. Text in echo
+#: localize/contact.php:112
+msgid "Phone/Cell"
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:476
+msgid "Pingback:"
+msgstr ""
+
+#. Text in function
+#: localize/contact.php:1
+msgid "Please enter a message."
+msgstr ""
+
+#. Text in function
+#: localize/contact.php:1
+msgid "Please enter your email address."
+msgstr ""
+
+#. Text in function
+#: localize/contact.php:1
+msgid "Please enter your name."
+msgstr ""
+
+#. Text in function
+#: localize/tag.php:6
+msgid "Posts tagged: #"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:27 localize/comments.php:76
+msgid "Previous"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2912
+msgid "Primary Navigation"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:84 localize/page-askpodcast.php:33
+#: localize/page-editpodcast.php:61 localize/page-editanswer.php:61
+#: localize/custom_functions.php:612
+msgid "Processing..."
+msgstr ""
+
+#. Text in echo
+#: localize/page-askpodcast.php:72 localize/page-editpodcast.php:113
+msgid "Publish in"
+msgstr ""
+
+#. Text in echo
+#: localize/page-askpodcast.php:38 localize/page-editpodcast.php:66
+msgid "Podcast"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Podcast Answers"
+msgstr ""
+
+#. Text in echo
+#: localize/page-askpodcast.php:62 localize/page-editpodcast.php:103
+msgid "Podcast Tags"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Podcast added to your Favourites!"
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:542
+msgid "Podcast author has accepted this Answer as the most reliable one."
+msgstr ""
+
+#. Text in function
+#: localize/page-askpodcast.php:40 localize/page-editpodcast.php:68
+msgid "Podcast is mandatory (between %1$s and %2$s characters)!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Podcast removed from your Favourites!"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:107
+msgid "Podcasts"
+msgstr ""
+
+#. Text in function
+#: localize/taxonomy-podcast_tags.php:6
+msgid "Podcasts tagged: #"
+msgstr ""
+
+#. Text in function
+#: localize/index.php:36 localize/category.php:36 localize/search.php:44
+#: localize/archive.php:48 localize/custom_functions.php:2140
+#: localize/tag.php:40
+msgid "READ ON &rarr;"
+msgstr ""
+
+#. Text in echo
+#: localize/single-podcast.php:123
+msgid "REPORT"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Reguar Comments"
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:546
+msgid "Reject this Answer!"
+msgstr ""
+
+#. Text in echo
+#: localize/author.php:283
+msgid "Remove from Favourites?"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:566 localize/custom_functions.php:637
+msgid "Report"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid ""
+"Report could not be sent! Possible reason: your host may have disabled PHP"
+"\\'s mail() function."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Report has been sent successfully. Thanks for participating!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:566
+msgid "Report this Answer as inappropriate or offensive!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:637
+msgid "Report this Comment as inappropriate or offensive!"
+msgstr ""
+
+#. Text in echo
+#: localize/single-podcast.php:123
+msgid "Report this Podcast as inappropriate or offensive!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Reputation score"
+msgstr ""
+
+#. Text in echo
+#: localize/contact.php:135
+msgid "SEND YOUR MESSAGE"
+msgstr ""
+
+#. Text in function
+#: localize/search-podcast.php:6 localize/search.php:6
+msgid "Search results (%s) for:"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2912
+msgid "Select..."
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:39
+msgid "Share your opinion"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:85
+msgid "Show all Answers by %s"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:92
+msgid "Show all Favourites by %s"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:78
+msgid "Show all Podcasts by %s"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar Archives"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar Category"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar Index"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar Page"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar Podcast Search Results"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar Podcast Single"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar Podcasts Category"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar Search Results"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar Single"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar for content: Archives"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar for content: Category"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar for content: Home Page"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar for content: Page"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar for content: Podcast Search Results"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar for content: Podcasts Category"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar for content: Search Results"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar for content: Single Post"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Sidebar for content: Single Podcast"
+msgstr ""
+
+#. Text in echo
+#: localize/header.php:81
+msgid "Sign in"
+msgstr ""
+
+#. Text in echo
+#: localize/header.php:91
+msgid "Sign out"
+msgstr ""
+
+#. Text in echo
+#: localize/header.php:83
+msgid "Sign up"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2912
+msgid "Sorry, no results were found for the requested page."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2912
+msgid "Sorry, nothing found for the requested search term."
+msgstr ""
+
+#. Text in echo
+#: localize/404.php:11
+msgid "Sorry, requested Page can not be found."
+msgstr ""
+
+#. Text in function
+#: localize/taxonomy-podcast_category.php:81 localize/search-podcast.php:68
+#: localize/taxonomy-podcast_tags.php:67 localize/author.php:222
+#: localize/sc-allpodcasts.php:109
+msgid "Status: closed!"
+msgstr ""
+
+#. Text in function
+#: localize/taxonomy-podcast_category.php:81 localize/search-podcast.php:68
+#: localize/taxonomy-podcast_tags.php:67 localize/author.php:222
+#: localize/sc-allpodcasts.php:109
+msgid "Status: opened"
+msgstr ""
+
+#. Text in echo
+#: localize/page-editanswer.php:84
+msgid "Submit Answer"
+msgstr ""
+
+#. Text in echo
+#: localize/page-askpodcast.php:80 localize/page-editpodcast.php:127
+msgid "Submit Podcast"
+msgstr ""
+
+#. Text in function
+#: localize/contact.php:1
+msgid "Summarize!"
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:602
+msgid "TIP: Use Markdown to format text!"
+msgstr ""
+
+#. Text in function
+#: localize/contact.php:146
+msgid ""
+"Thanks for contacting us! Your message has been sent successfully and we "
+"will get back to you as soon as possible."
+msgstr ""
+
+#. Text in function
+#: localize/page-edituser.php:1
+msgid "The Email you entered is not valid! Please try again."
+msgstr ""
+
+#. Text in function
+#: localize/page-edituser.php:1
+msgid "The passwords you entered do not match.  Your password was not updated."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid ""
+"There's maybe an inappropriate or offensive content on your website that "
+"requires your attention!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "This Answer has already been accepted before!"
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:509
+msgid "This Answer is useful, vote PRO for it!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140 localize/single-podcast.php:47
+msgid "This Podcast is already saved in your Favourites!"
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:529 localize/single-podcast.php:40
+msgid "This Podcast is not useful or is unclear, vote CON for it!"
+msgstr ""
+
+#. Text in echo
+#: localize/single-podcast.php:25
+msgid "This Podcast is useful, vote PRO for it!"
+msgstr ""
+
+#. Text in function
+#: localize/page-edituser.php:1
+msgid "This email is already used by another user! Try a different one."
+msgstr ""
+
+#. Text in echo
+#: localize/comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:180
+msgid "Update"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:22
+msgid "User profile"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:566 localize/custom_functions.php:2140
+#: localize/author.php:295 localize/single-podcast.php:84
+msgid "User reputation score"
+msgstr ""
+
+#. Text in echo
+#: localize/comments.php:21
+msgid "Users feedback"
+msgstr ""
+
+#. Text in echo
+#: localize/author.php:42
+msgid "VISIT"
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:2136 localize/custom_functions.php:2140
+msgid "Value"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2221
+msgid "Vcard generator"
+msgstr ""
+
+#. Text in function
+#: localize/comments.php:39 localize/page-edituser.php:114
+msgid "Website"
+msgstr ""
+
+#. Text in echo
+#: localize/contact.php:117
+msgid "YOUR MESSAGE"
+msgstr ""
+
+#. Text in function
+#: localize/archive.php:11
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "You already voted for this Answer! Multiple votes are not allowed."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "You already voted for this Podcast! Multiple votes are not allowed."
+msgstr ""
+
+#. Text in function
+#: localize/page-editanswer.php:102
+msgid "You are not allowed to EDIT this Answer, you are not the author."
+msgstr ""
+
+#. Text in function
+#: localize/page-editpodcast.php:144
+msgid "You are not allowed to EDIT this Podcast, you are not the author."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "You are not allowed to perform such action!"
+msgstr ""
+
+#. Text in echo
+#: localize/single-podcast.php:59
+msgid "You are not allowed to save to Favourites, sign in first"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "You are not allowed to vote CON yet, your reputation score is too low."
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:511 localize/custom_functions.php:531
+#: localize/single-podcast.php:27 localize/single-podcast.php:42
+msgid "You are not allowed to vote, sign in first!"
+msgstr ""
+
+#. Text in echo
+#: localize/page-askpodcast.php:104
+msgid ""
+"You are not signed in and thus not allowed to ask a Podcast. Please sign in "
+"or create an account then get back."
+msgstr ""
+
+#. Text in function
+#: localize/page-editanswer.php:102
+msgid ""
+"You are not signed in and thus not allowed to edit Answer. Please sign in or "
+"create an account then get back."
+msgstr ""
+
+#. Text in function
+#: localize/page-editpodcast.php:144
+msgid ""
+"You are not signed in and thus not allowed to edit Podcast. Please sign in "
+"or create an account then get back."
+msgstr ""
+
+#. Text in function
+#: localize/page-editpodcast.php:1 localize/page-editpodcast.php:144
+#: localize/page-editanswer.php:1 localize/page-editanswer.php:102
+msgid "You are trying to cheat, huh? That's bad idea."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "You can't vote for your own Answer!"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "You can't vote for your own Podcast!"
+msgstr ""
+
+#. Text in function
+#: localize/contact.php:1
+msgid "You entered an invalid email address."
+msgstr ""
+
+#. Text in echo
+#: localize/page-edituser.php:85
+msgid "You must be logged in to edit your profile."
+msgstr ""
+
+#. Text in echo
+#: localize/comments.php:124
+msgid "You must be signed in if you want to answer the podcast!"
+msgstr ""
+
+#. Text in echo
+#: localize/single-podcast.php:154
+msgid ""
+"Your Answer can not be added, server responded with error! Sorry for any "
+"inconvenience and please try again later.<br />Thanks for understanding!"
+msgstr ""
+
+#. Text in echo
+#: localize/page-editanswer.php:97
+msgid ""
+"Your Answer can not be saved, server responded with error! Sorry for any "
+"inconvenience and please try again later.<br />Thanks for understanding!"
+msgstr ""
+
+#. Text in echo
+#: localize/single-podcast.php:150
+msgid ""
+"Your Answer has been added successfully, thanks for participating! Now "
+"refreshing this page..."
+msgstr ""
+
+#. Text in echo
+#: localize/page-editanswer.php:93
+msgid ""
+"Your Answer has been saved successfully!<br />Right now redirecting to "
+"Podcast details page..."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Your Comment has been removed successfully!"
+msgstr ""
+
+#. Text in echo
+#: localize/page-askpodcast.php:99
+msgid ""
+"Your Podcast can not be added, server responded with error! Sorry for any "
+"inconvenience and please try again later.<br />Thanks for understanding!"
+msgstr ""
+
+#. Text in echo
+#: localize/page-editpodcast.php:139
+msgid ""
+"Your Podcast can not be saved, server responded with error! Sorry for any "
+"inconvenience and please try again later.<br />Thanks for understanding!"
+msgstr ""
+
+#. Text in echo
+#: localize/page-askpodcast.php:88
+msgid ""
+"Your Podcast has been added successfully, thanks for participating! "
+"However, it won't be visible immediately, site staff approval is required!"
+msgstr ""
+
+#. Text in echo
+#: localize/page-askpodcast.php:88
+msgid ""
+"Your Podcast has been added successfully, thanks for participating!<br /"
+">Right now redirecting to your new Podcast page..."
+msgstr ""
+
+#. Text in echo
+#: localize/page-editpodcast.php:136
+msgid ""
+"Your Podcast has been saved successfully!<br />Right now redirecting to "
+"Podcast details page..."
+msgstr ""
+
+#. Text in echo
+#: localize/page-askpodcast.php:74 localize/page-editpodcast.php:120
+msgid "Your Podcast will be published in selected category!"
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:454
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in echo
+#: localize/custom_functions.php:605
+msgid "Your comment:"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "Your vote has been accepted."
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "[%s] Inappropriate content report!"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:51
+msgid "age"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:566
+msgid ""
+"answered: %1$s by <a href=\"%3$s\" title=\"%2$s\">%2$s</a> [ <span class="
+"\"rep-score\" title=\"%5$s\">%4$s</span> ]"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140 localize/author.php:86
+msgid "answers"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid ""
+"asked: <span class=\"elapsed\">%1$s</span> ago by <a href=\"%2$s\" title="
+"\"%3$s\">%3$s</a> [ <span class=\"rep-score\" title=\"%6$s\">%5$s</span> ] "
+"in %4$s"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:295 localize/single-podcast.php:84
+msgid ""
+"asked: <span class=\"elapsed\">%1$s</span> by <a href=\"%2$s\" title=\"%3$s"
+"\">%3$s</a> [ <span class=\"rep-score\" title=\"%6$s\">%5$s</span> ] in %4$s"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:153 localize/author.php:216
+msgid "asked: <span class=\"elapsed\">%1$s</span> in %2$s"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "day"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "days"
+msgstr ""
+
+#. Text in echo
+#: localize/author.php:93
+msgid "favourites"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "hr"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "hrs"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:47
+msgid "loaction"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "min"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "mins"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140 localize/author.php:79
+msgid "podcasts"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:30
+msgid "registered"
+msgstr ""
+
+#. Text in echo
+#: localize/author.php:73
+msgid "reputation"
+msgstr ""
+
+#. Text in function
+#: localize/custom_functions.php:2140
+msgid "users"
+msgstr ""
+
+#. Text in function
+#: localize/author.php:34
+msgid "website"
+msgstr ""

@@ -1,0 +1,11 @@
+html.my html.my body { background-color: #FFFFFF !important; }
+html.my body { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif !important; font-size: 13px !important; color: #999999; text-shadow: 0 1px 0 #FFFFFF; }
+#layout-dialog { }
+#layout-dialog div { padding: 0 0 10px 0; overflow: hidden; border-bottom: 1px dotted #DDDDDD; }
+#layout-dialog label { display: block; float: left; margin: 15px 5px 0 0; width: 340px; }
+#layout-dialog label:before { content: "\00bb\00a0"; }
+#layout-dialog select, #layout-dialog input { display: block; float: right; width: 280px; padding: 3px 5px; margin: 10px 0 0 10px; font-size: 12px; color: #666666; }
+#layout-dialog select { width: 292px; }
+#layout-dialog #insert { display: block; clear: both; line-height: 24px; text-transform: uppercase; text-decoration: none; text-align: center; margin: 10px 0 0 0; float: right; }
+#layout-dialog form #help { padding: 15px; background-color: salmon; color: #FFFFFF; text-shadow: 0 1px 0 #999; border: none; border-radius: 4px; box-shadow: 1px 1px 0 #FFFFFF; }
+#layout-dialog form #help a { text-shadow: none !important; text-decoration: none  !important; }
