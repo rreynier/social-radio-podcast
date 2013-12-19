@@ -70,7 +70,7 @@
                 $my_class = ( $this_status == 'open' ) ? ' status-open' : ' status-closed';
                 $my_title = ( $this_status == 'open' ) ? __( "Status: opened", "kazaz" ) : __( "Status: closed!", "kazaz" );
                 ?>
-                <div class="entry-status<?php echo $my_class; ?>" title="<?php echo $my_title; ?>"></div>
+                <!-- <div class="entry-status<?php echo $my_class; ?>" title="<?php echo $my_title; ?>"></div> -->
 
             </section><!-- end post content -->
 

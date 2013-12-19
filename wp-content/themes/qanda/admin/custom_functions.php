@@ -535,7 +535,7 @@ if( !function_exists( 'k_podcast_comment' ) ) :
 
                     <div class="meta-pro">
                         <?php if( is_user_logged_in() ) { ?>
-                            <a href="javascript:void(0);" class="vote-pro jq-hover a-vote" data-action="pro" data-id="<?php comment_ID(); ?>" data-author="<?php echo $comment->user_id; ?>" title="<?php _e( "This Answer is useful, vote PRO for it!", "kazaz" ); ?>"></a>
+                            <a href="javascript:void(0);" class="vote-pro jq-hover a-vote" data-action="pro" data-id="<?php comment_ID(); ?>" data-author="<?php echo $comment->user_id; ?>" title="<?php _e( "This Comment is useful, vote PRO for it!", "kazaz" ); ?>"></a>
                         <?php } else { ?>
                             <a href="javascript:void(0);" class="vote-pro q-alien" title="<?php _e( "You are not allowed to vote, sign in first!", "kazaz" ); ?>"></a>
                         <?php } ?>
@@ -563,16 +563,16 @@ if( !function_exists( 'k_podcast_comment' ) ) :
 
                     <div class="meta-accept">
                         <?php if( (int)get_the_author_meta( 'ID' ) === (int)$current_user->ID && get_post_meta( $post->ID, 'status', TRUE ) == 'open' ) { ?>
-                            <a href="javascript:void(0);" class="jq-hover q-accept" data-id="<?php comment_ID(); ?>" data-qid="<?php echo $post->ID; ?>" data-author="<?php echo $comment->user_id; ?>" title="<?php _e( "Accept this Answer!", "kazaz" ); ?>"></a>
+                            <!-- <a href="javascript:void(0);" class="jq-hover q-accept" data-id="<?php comment_ID(); ?>" data-qid="<?php echo $post->ID; ?>" data-author="<?php echo $comment->user_id; ?>" title="<?php _e( "Accept this Comment!", "kazaz" ); ?>"></a> -->
                         <?php
 						} else {
 							if( get_comment_meta( get_comment_ID(), 'status', TRUE ) == 'accepted' && get_the_author_meta( 'ID' ) !== $current_user->ID ) {
 						?>
-                        	<a href="javascript:void(0);" class="q-alien q-accepted" title="<?php _e( "Podcast author has accepted this Answer as the most reliable one.", "kazaz" ); ?>"></a>
+                        	<a href="javascript:void(0);" class="q-alien q-accepted" title="<?php _e( "Podcast author has accepted this Comment as the most reliable one.", "kazaz" ); ?>"></a>
                         <?php
 							} elseif( get_comment_meta( get_comment_ID(), 'status', TRUE ) == 'accepted' && (int)get_the_author_meta( 'ID' ) === (int)$current_user->ID ) {
 						?>
-                        	<a href="javascript:void(0);" class="jq-hover q-accepted q-reject" data-id="<?php comment_ID(); ?>" data-qid="<?php echo $post->ID; ?>" data-author="<?php echo $comment->user_id; ?>" title="<?php _e( "Reject this Answer!", "kazaz" ); ?>"></a>
+                        	<a href="javascript:void(0);" class="jq-hover q-accepted q-reject" data-id="<?php comment_ID(); ?>" data-qid="<?php echo $post->ID; ?>" data-author="<?php echo $comment->user_id; ?>" title="<?php _e( "Reject this Comment!", "kazaz" ); ?>"></a>
                         <?php
 							}
 						}
@@ -606,19 +606,19 @@ if( !function_exists( 'k_podcast_comment' ) ) :
 						if( is_user_logged_in() && ( (int)$comment->user_id === (int)$current_user->ID ) || current_user_can( 'administrator' ) ) {
 							$edit_page_id = (int)of_get_option( 'k_answer_edit_page' );
 							$edit_podcast_perma = get_permalink( $edit_page_id );
-							echo '<form id="answer-edit-form-' . get_comment_ID() . '" class="mini-form" method="post" action="' . $edit_podcast_perma . '">';
-							wp_nonce_field( 'edit_answer_form', 'edit_answer_form_submitted-' . get_comment_ID() );
-							echo '<input type="hidden" id="qid-' . get_comment_ID() . '" name="qid" value="' . $post->ID . '" />';
-							echo '<input type="hidden" id="aid-' . get_comment_ID() . '" name="aid" value="' . get_comment_ID() . '" />';
-							echo '<input type="hidden" id="aaid-' . get_comment_ID() . '" name="aaid" value="' . $comment->user_id . '" />';
-							echo '</form>';
-                        	echo '<div class="wrap-a-butt saef-' . get_comment_ID() . '"><a href="javascript:void(0);" class="submit-answer-edit-form" data-id="' . get_comment_ID() . '" rel="nofollow">' . __( "Edit Answer", "kazaz" ) . '</a></div>';
+							// echo '<form id="answer-edit-form-' . get_comment_ID() . '" class="mini-form" method="post" action="' . $edit_podcast_perma . '">';
+							// wp_nonce_field( 'edit_answer_form', 'edit_answer_form_submitted-' . get_comment_ID() );
+							// echo '<input type="hidden" id="qid-' . get_comment_ID() . '" name="qid" value="' . $post->ID . '" />';
+							// echo '<input type="hidden" id="aid-' . get_comment_ID() . '" name="aid" value="' . get_comment_ID() . '" />';
+							// echo '<input type="hidden" id="aaid-' . get_comment_ID() . '" name="aaid" value="' . $comment->user_id . '" />';
+							// echo '</form>';
+       //        echo '<div class="wrap-a-butt saef-' . get_comment_ID() . '"><a href="javascript:void(0);" class="submit-answer-edit-form" data-id="' . get_comment_ID() . '" rel="nofollow">' . __( "Edit Comment", "kazaz" ) . '</a></div>';
 						}
 						if( is_user_logged_in() ) {
 							echo '<div class="wrap-a-butt aac-' . get_comment_ID() . '"><a href="javascript:void(0);" class="add-answer-comment" data-id="' . get_comment_ID() . '" rel="nofollow">' . __( "Add Comment", "kazaz" ) . '</a></div>';
 						}
 						if( is_user_logged_in() && ( (int)$comment->user_id !== (int)$current_user->ID ) || current_user_can( 'administrator' ) ) {
-							echo '<div class="wrap-a-butt kfa-' . get_comment_ID() . '"><a href="javascript:void(0);" class="k-flag-answer" data-type="answer" data-id="' . get_comment_ID() . '" data-author="' . $comment->user_id . '" data-postid="' . $post->ID . '" rel="nofollow" title="' . __( "Report this Answer as inappropriate or offensive!", "kazaz" ) . '">' . __( "Report", "kazaz" ) . '</a></div>';
+							echo '<div class="wrap-a-butt kfa-' . get_comment_ID() . '"><a href="javascript:void(0);" class="k-flag-answer" data-type="answer" data-id="' . get_comment_ID() . '" data-author="' . $comment->user_id . '" data-postid="' . $post->ID . '" rel="nofollow" title="' . __( "Report this Comment as inappropriate or offensive!", "kazaz" ) . '">' . __( "Report", "kazaz" ) . '</a></div>';
 						}
                         echo '&nbsp;</div>';
                         ?>
@@ -932,7 +932,7 @@ if( !function_exists( 'k_time2string' ) ) :
 		if( trim( $ret ) == '' ) $ret = __( "Few seconds", "kazaz" ) . ' ';
 
 		printf(
-		__( 'asked: <span class="elapsed">%1$s</span> ago by <a href="%2$s" title="%3$s">%3$s</a> [ <span class="rep-score" title="%6$s">%5$s</span> ] in %4$s', 'kazaz' ),
+		__( 'posted: <span class="elapsed">%1$s</span> ago by <a href="%2$s" title="%3$s">%3$s</a> [ <span class="rep-score" title="%6$s">%5$s</span> ] in %4$s', 'kazaz' ),
 		$ret,
 		esc_url( get_author_posts_url( get_the_author_meta( "ID" ) ) ),
 		get_the_author(),
@@ -1301,7 +1301,7 @@ if( !function_exists( 'k_vote_answer' ) ) :
 
 				if( in_array( $id, $all_votes_pro ) || in_array( $id, $all_votes_con ) ) {
 					// already voted this podcast pro or con
-					$msg = __( "You already voted for this Answer! Multiple votes are not allowed.", "kazaz" );
+					$msg = __( "You already voted for this Comment! Multiple votes are not allowed.", "kazaz" );
 				} else {
 					if( $action == 'pro' ) {
 						array_push( $all_votes_pro, $id );
@@ -1366,7 +1366,7 @@ if( !function_exists( 'k_vote_answer' ) ) :
 				}
 			}
 
-		} else $msg = __( "You can't vote for your own Answer!", "kazaz" );
+		} else $msg = __( "You can't vote for your own Comment!", "kazaz" );
 
 		$response = json_encode( array( 'success' => true, 'new_votes' => get_comment_meta( $id, 'votes', true ), 'msg' => $msg ) );
 		header( "Content-Type: application/json" );
@@ -1485,9 +1485,9 @@ if( !function_exists( 'k_accept_answer' ) ) :
 					update_post_meta( $postid, 'status', 'closed' );
 					// update answer author reputation score
 					k_update_reputation_points( $answer_author_id, '', 'accepted' );
-					$msg = __( "Answer accepted!", "kazaz" );
-				} else $msg = __( "Error, Answer can not be accepted! Please try again later.", "kazaz" );
-			} else $msg = __( "This Answer has already been accepted before!", "kazaz" );
+					$msg = __( "Comment accepted!", "kazaz" );
+				} else $msg = __( "Error, Comment can not be accepted! Please try again later.", "kazaz" );
+			} else $msg = __( "This Comment has already been accepted before!", "kazaz" );
 		} else {
 			// new record is needed
 			$insert_rec = $wpdb->insert(
@@ -1502,8 +1502,8 @@ if( !function_exists( 'k_accept_answer' ) ) :
 				update_post_meta( $postid, 'status', 'closed' );
 				// update answer author reputation score
 				k_update_reputation_points( $answer_author_id, '', 'accepted' );
-				$msg = __( "Answer accepted!", "kazaz" );
-			} else $msg = __( "Error, Answer can not be accepted! Please try again later.", "kazaz" );
+				$msg = __( "Comment accepted!", "kazaz" );
+			} else $msg = __( "Error, Comment can not be accepted! Please try again later.", "kazaz" );
 		}
 
 		$response = json_encode( array( 'success' => true, 'msg' => $msg, 'redir' => get_permalink( $postid ) ) );
@@ -1556,11 +1556,11 @@ if( !function_exists( 'k_decept_answer' ) ) :
 					update_post_meta( $postid, 'status', 'open' );
 					// update answer author reputation score
 					k_update_reputation_points( $answer_author_id, '', 'reject' );
-					$msg = __( "Answer has been rejected!", "kazaz" );
-				} else $msg = __( "Error, Answer can not be rejected! Please try again later.", "kazaz" );
-			} else $msg = __( "Error, Answer can not be rejected! Please try again later.", "kazaz" );
+					$msg = __( "Comment has been rejected!", "kazaz" );
+				} else $msg = __( "Error, Comment can not be rejected! Please try again later.", "kazaz" );
+			} else $msg = __( "Error, Comment can not be rejected! Please try again later.", "kazaz" );
 
-		} else $msg = __( "Error, Answer can not be rejected! Please try again later.", "kazaz" );
+		} else $msg = __( "Error, Comment can not be rejected! Please try again later.", "kazaz" );
 
 		$response = json_encode( array( 'success' => true, 'msg' => $msg, 'redir' => get_permalink( $postid ) ) );
 		header( "Content-Type: application/json" );
@@ -1605,7 +1605,7 @@ if( !function_exists( 'k_flag_report' ) ) :
 		$message .= sprintf( __( 'It has been reported by %1$s, %2$s', 'kazaz' ), $current_user->user_login, $user_profile_link ) . "\r\n\r\n";
 		$message .= sprintf( __( 'Entry content front-end: %s', 'kazaz' ), $view_details ) . "\r\n\r\n";
 		$message .= sprintf( __( 'Entry content Admin: %s', 'kazaz' ), $edit_admin ) . "\r\n\r\n";
-		$message .= __( "Beware: Both Podcast and Answer (answer comment too) content is saved simultaneously as HTML and Markdown. If you decide to edit either of these two be sure to edit correspondingly!", "kazaz" ) . "\r\n\r\n";
+		$message .= __( "Beware: Both Podcast and Comment (answer comment too) content is saved simultaneously as HTML and Markdown. If you decide to edit either of these two be sure to edit correspondingly!", "kazaz" ) . "\r\n\r\n";
 
 		if( $message && !wp_mail( $sent_report_to, $title, $message ) ) $msg = __( "Report could not be sent! Possible reason: your host may have disabled PHP\'s mail() function.", "kazaz" );
 		else $msg = __( "Report has been sent successfully. Thanks for participating!", "kazaz" );
@@ -1882,11 +1882,11 @@ if( !function_exists( 'k_wp_notify_postauthor' ) ) :
 		if( empty( $comment_type ) ) $comment_type = 'comment';
 
 		if( 'comment' == $comment_type ) {
-			$notify_message  = sprintf( __( 'New Answer to your Podcast "%1$s"', 'kazaz' ), $post->post_title ) . "\n";
+			$notify_message  = sprintf( __( 'New Comment to your Podcast "%1$s"', 'kazaz' ), $post->post_title ) . "\n";
 			$notify_message .= sprintf( __( 'Author : %1$s', 'kazaz' ), $comment->comment_author ) . "\n";
-			$notify_message .= __( 'Answer/Comment: ', 'kazaz' ) . "\n" . $comment->comment_content . "\n";
+			$notify_message .= __( 'Comment/Comment: ', 'kazaz' ) . "\n" . $comment->comment_content . "\n";
 			$notify_message .= __( 'Check it out here: ', 'kazaz' ) . "\n";
-			$subject = sprintf( __( 'New Answer: "%1$s"', 'kazaz' ), $post->post_title );
+			$subject = sprintf( __( 'New Comment: "%1$s"', 'kazaz' ), $post->post_title );
 		} else return false;
 
 		$notify_message .= get_permalink( $comment->comment_post_ID ) . "#comment-" . $comment_id . "\n";
@@ -2293,8 +2293,8 @@ if( !function_exists( 'k_comment_column' ) ) :
 		switch ( $column ) {
 			case 'type':
 				if( $comment_kar === 29 ) {
-					if( $comment_par ) _e( "Answer comment", "kazaz" );
-					elseif( !$comment_par ) _e( "Answer", "kazaz" );
+					if( $comment_par ) _e( "Comment comment", "kazaz" );
+					elseif( !$comment_par ) _e( "Comment", "kazaz" );
 				} else {
 					_e( "Post comment", "kazaz" );
 				}
@@ -2308,8 +2308,8 @@ add_filter( 'manage_comments_custom_column', 'k_comment_column', 10, 2 );
 function k_filter_comments_extra( $comment_types ) {
 	$filters = array(
 		'regular_comments' => __( "Reguar Comments", "kazaz" ),
-		'podcast_answers' => __( "Podcast Answers", "kazaz" ),
-		'answer_comments' => __( "Answer Comments", "kazaz" )
+		'podcast_answers' => __( "Podcast Comments", "kazaz" ),
+		'answer_comments' => __( "Comment Comments", "kazaz" )
 	);
 
 	return array_merge( $comment_types, $filters );

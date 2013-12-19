@@ -150,7 +150,7 @@ endif;
                         </a>
                     </h5>
                     <span class="aaq-podcast-meta">
-                    <?php printf( __( 'asked: <span class="elapsed">%1$s</span> in %2$s', 'kazaz' ), get_the_date(), get_the_term_list( get_the_ID(), 'podcast_category', '', ', ', '' ) ); ?>
+                    <?php printf( __( 'posted: <span class="elapsed">%1$s</span> in %2$s', 'kazaz' ), get_the_date(), get_the_term_list( get_the_ID(), 'podcast_category', '', ', ', '' ) ); ?>
                     </span>
                 </div>
 
@@ -213,7 +213,7 @@ endif;
                                     </a>
                                 </h5>
                                 <span class="aaq-podcast-meta">
-                                <?php printf( __( 'asked: <span class="elapsed">%1$s</span> in %2$s', 'kazaz' ), get_the_date(), get_the_term_list( get_the_ID(), 'podcast_category', '', ', ', '' ) ); ?>
+                                <?php printf( __( 'posted: <span class="elapsed">%1$s</span> in %2$s', 'kazaz' ), get_the_date(), get_the_term_list( get_the_ID(), 'podcast_category', '', ', ', '' ) ); ?>
                                 </span>
                             </div>
 
@@ -294,7 +294,7 @@ endif;
                                 <span class="aaq-podcast-meta">
                                 <?php
                                 printf(
-                                __( 'asked: <span class="elapsed">%1$s</span> by <a href="%2$s" title="%3$s">%3$s</a> [ <span class="rep-score" title="%6$s">%5$s</span> ] in %4$s', 'kazaz' ),
+                                __( 'posted: <span class="elapsed">%1$s</span> by <a href="%2$s" title="%3$s">%3$s</a> [ <span class="rep-score" title="%6$s">%5$s</span> ] in %4$s', 'kazaz' ),
                                 get_the_date(),
                                 esc_url( get_author_posts_url( get_the_author_meta( "ID" ) ) ),
                                 get_the_author(),

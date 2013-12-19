@@ -11,7 +11,6 @@ get_header();
 global $current_user;
 get_currentuserinfo();
 ?>
-
 <div class="articles-wrap twelve columns alpha"><!-- articles wrapper -->
 
 <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
@@ -111,7 +110,7 @@ get_currentuserinfo();
                     <input type="hidden" id="qid" name="qid" value="<?php the_ID(); ?>" />
                     <input type="hidden" id="qaid" name="qaid" value="<?php the_author_meta( 'ID' ); ?>" />
                 </form>
-                <a id="submit-podcast-edit-form" href="javascript:void(0);" rel="nofollow"><?php _e( "EDIT PODCAST", "kazaz" ); ?></a>
+                <!--<a id="submit-podcast-edit-form" href="javascript:void(0);" rel="nofollow"><?php _e( "EDIT PODCAST", "kazaz" ); ?></a>-->
                 </div>
                 <?php } ?>
 
@@ -147,11 +146,11 @@ endif;
 
 <div id="answer-messages">
     <div class="form-message-ok alertyellow">
-    <p><?php _e( "Your Answer has been added successfully, thanks for participating! Now refreshing this page...", "kazaz" );?></p>
+    <p><?php _e( "Your Comment has been added successfully, thanks for participating! Now refreshing this page...", "kazaz" );?></p>
     </div>
 
     <div class="form-message-error alertred">
-    <p><?php _e( "Your Answer can not be added, server responded with error! Sorry for any inconvenience and please try again later.<br />Thanks for understanding!", "kazaz" ); ?></p>
+    <p><?php _e( "Your Comment can not be added, server responded with error! Sorry for any inconvenience and please try again later.<br />Thanks for understanding!", "kazaz" ); ?></p>
     </div>
 </div>
 

@@ -273,7 +273,7 @@ function optionsframework_options() {
 
 	$options[] = array(
 		'name' => '',
-		'desc' => __('Uniform title size for the podcast Answer. It will be the same for all H1, H2, H3, H4, H5 and H6 tags!', 'kazaz'),
+		'desc' => __('Uniform title size for the podcast Comment. It will be the same for all H1, H2, H3, H4, H5 and H6 tags!', 'kazaz'),
 		'id' => "k_answer_titles_size",
 		'std' => array( 'size' => '20px', 'color' => '#999999', 'style' => 'normal' ),
 		'type' => 'typography',
@@ -339,7 +339,7 @@ function optionsframework_options() {
 // :::::::::::::::::::::::::::::: PODCAST ::::::::::::::::::::::::::::: \\
 
 	$options[] = array(
-		'name' => __('Qusetions and Answers', 'kazaz'),
+		'name' => __('Qusetions and Comments', 'kazaz'),
 		'desc' => __('Customize, enable, disable, etc.', 'kazaz'),
 		'type' => 'heading');
 
@@ -347,12 +347,12 @@ function optionsframework_options() {
 		'name' => '',
 		'desc' => __('In order to be able to select 2 mandatory pages, you will have to create them first. If you did not create them yet, from Dashboard select:
 		Pages > Add New
-		...enter the title for each of your pages and apply "Edit Podcast Page" or "Edit Answer Page" Template correspondingly from Page Attributes panel (right hand sidebar).
+		...enter the title for each of your pages and apply "Edit Podcast Page" or "Edit Comment Page" Template correspondingly from Page Attributes panel (right hand sidebar).
 		Once done get back to this Options screen and your two new pages should be selectable from the drop-down list.', 'kazaz'),
 		'type' => 'info');
 
 	$options[] = array(
-		'name' => __( 'Podcast EDIT and Answer EDIT pages', 'kazaz' ),
+		'name' => __( 'Podcast EDIT and Comment EDIT pages', 'kazaz' ),
 		'desc' => __( 'From the drop-down select Podcast EDIT page.', 'kazaz' ),
 		'id' => 'k_podcast_edit_page',
 		'std' => '',
@@ -361,7 +361,7 @@ function optionsframework_options() {
 
 	$options[] = array(
 		'name' => '',
-		'desc' => __( 'From the drop-down select Answer EDIT page.', 'kazaz' ),
+		'desc' => __( 'From the drop-down select Comment EDIT page.', 'kazaz' ),
 		'id' => 'k_answer_edit_page',
 		'std' => '',
 		'type' => 'select',
@@ -437,7 +437,7 @@ function optionsframework_options() {
 		'type' => 'text');
 
 	$options[] = array(
-		'name' => __( 'Minimum and maximum number of characters per Answer', 'kazaz' ),
+		'name' => __( 'Minimum and maximum number of characters per Comment', 'kazaz' ),
 		'desc' => __( 'Minimum number of characters', 'kazaz' ),
 		'id' => 'k_answer_cont_chars_min',
 		'std' => '10',
@@ -453,8 +453,8 @@ function optionsframework_options() {
 		'type' => 'text');
 
 	$options[] = array(
-		'name' => __( 'Minimum and maximum number of characters per Answer comment', 'kazaz' ),
-		'desc' => __( 'Users are allowed to post comments on Answer. Enter minimum number of characters', 'kazaz' ),
+		'name' => __( 'Minimum and maximum number of characters per Comment comment', 'kazaz' ),
+		'desc' => __( 'Users are allowed to post comments on Comment. Enter minimum number of characters', 'kazaz' ),
 		'id' => 'k_answer_comment_chars_min',
 		'std' => '10',
 		'class' => 'mini',
@@ -462,7 +462,7 @@ function optionsframework_options() {
 
 	$options[] = array(
 		'name' => '',
-		'desc' => __('Enter maximum number of characters per Answer comment', 'kazaz'),
+		'desc' => __('Enter maximum number of characters per Comment comment', 'kazaz'),
 		'id' => 'k_answer_comment_chars_max',
 		'std' => '800',
 		'class' => 'mini',
@@ -492,24 +492,24 @@ function optionsframework_options() {
 		'options' => $reputation_votes );
 
 	$options[] = array(
-		'name' => __( 'Answer - vote PRO', 'kazaz' ),
-		'desc' => __( 'When site members vote PRO for certain Answer, how many reputation points that Answer author is supposed to earn?', 'kazaz' ),
+		'name' => __( 'Comment - vote PRO', 'kazaz' ),
+		'desc' => __( 'When site members vote PRO for certain Comment, how many reputation points that Comment author is supposed to earn?', 'kazaz' ),
 		'id' => 'k_votes_answer_pro',
 		'std' => '2',
 		'type' => 'select',
 		'options' => $reputation_votes );
 
 	$options[] = array(
-		'name' => __( 'Answer - vote CON', 'kazaz' ),
-		'desc' => __( 'When site members vote CON for certain Answer, how many reputation points that Answer author is supposed to lose?', 'kazaz' ),
+		'name' => __( 'Comment - vote CON', 'kazaz' ),
+		'desc' => __( 'When site members vote CON for certain Comment, how many reputation points that Comment author is supposed to lose?', 'kazaz' ),
 		'id' => 'k_votes_answer_con',
 		'std' => '1',
 		'type' => 'select',
 		'options' => $reputation_votes );
 
 	$options[] = array(
-		'name' => __( 'Accepted Answer', 'kazaz' ),
-		'desc' => __( 'When Podcast author accepts certain Answer, how many reputation points is that Answer author supposed to earn?', 'kazaz' ),
+		'name' => __( 'Accepted Comment', 'kazaz' ),
+		'desc' => __( 'When Podcast author accepts certain Comment, how many reputation points is that Comment author supposed to earn?', 'kazaz' ),
 		'id' => 'k_accepted_answer_points',
 		'std' => '10',
 		'type' => 'select',
@@ -517,7 +517,7 @@ function optionsframework_options() {
 
 	$options[] = array(
 		'name' => __( 'Points limit for voting CON', 'kazaz' ),
-		'desc' => __( 'What is the minimum reputation score required before site members are allowed to vote CON (for either Podcast or Answer)?', 'kazaz' ),
+		'desc' => __( 'What is the minimum reputation score required before site members are allowed to vote CON (for either Podcast or Comment)?', 'kazaz' ),
 		'id' => 'k_vote_con_limit',
 		'std' => '50',
 		'type' => 'select',

@@ -111,17 +111,17 @@ if( is_user_logged_in() ) {
 			'comment_notes_after'  => '<div class="form-loader"><p>' . __( "Processing...", "kazaz" ) . '</p></div><div class="form-cover"></div>',
 			'logged_in_as'         => '',
 			'id_form'              => 'answerform',
-			'title_reply'          => __( "Answer the Podcast", "kazaz" ),
-			'title_reply_to'       => __( "Answer", "kazaz" ),
+			'title_reply'          => __( "Comment on Podcast", "kazaz" ),
+			'title_reply_to'       => __( "Comment", "kazaz" ),
 			'cancel_reply_link'    => __( "Cancel", "kazaz" ),
-			'label_submit'         => __( "POST ANSWER", "kazaz" )
+			'label_submit'         => __( "POST COMMENT", "kazaz" )
 		);
 
 	comment_form( $args );
 
 } else { ?>
 
-	<div class="alertred"><p class="force-user-login-msg"><?php _e( "You must be signed in if you want to answer the podcast!", "kazaz" ); ?></p></div>
+	<div class="alertred"><p class="force-user-login-msg"><?php _e( "You must be signed in if you want to comment on the podcast!", "kazaz" ); ?></p></div>
 
 <?php
 }

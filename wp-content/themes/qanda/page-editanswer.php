@@ -40,11 +40,11 @@ if( !(int)$_POST[ 'aid' ] || !(int)$_POST[ 'aaid' ] || !(int)$_POST[ 'qid' ] ) {
         <?php
 		if( !is_user_logged_in() ) {
 			$can_edit = FALSE;
-			$msg = __( "You are not signed in and thus not allowed to edit Answer. Please sign in or create an account then get back.", "kazaz" );
+			$msg = __( "You are not signed in and thus not allowed to edit Comment. Please sign in or create an account then get back.", "kazaz" );
 		} elseif( is_user_logged_in() && ( (int)$current_user->ID !== $a_author_id ) ) {
 			if( current_user_can( 'administrator' ) ) $can_edit = TRUE;
 			else $can_edit = FALSE;
-			$msg = __( "You are not allowed to EDIT this Answer, you are not the author.", "kazaz" );
+			$msg = __( "You are not allowed to EDIT this Comment, you are not the author.", "kazaz" );
 		} elseif( !wp_verify_nonce( $_POST[ 'edit_answer_form_submitted-' . $a_id ], 'edit_answer_form' ) ) {
 			$can_edit = FALSE;
 			$msg = __( "You are trying to cheat, huh? That's bad idea.", "kazaz" );
@@ -81,7 +81,7 @@ if( !(int)$_POST[ 'aid' ] || !(int)$_POST[ 'aaid' ] || !(int)$_POST[ 'qid' ] ) {
 
             <!-- publish content -->
             <p class="form-block form-block-mcut">
-            <input type="submit" id="podcast-submit" class="button" name="podcast-submit" value="<?php _e( "Submit Answer", "kazaz" ); ?>">
+            <input type="submit" id="podcast-submit" class="button" name="podcast-submit" value="<?php _e( "Submit Comment", "kazaz" ); ?>">
             </p>
             <!-- end publish content -->
 
@@ -90,11 +90,11 @@ if( !(int)$_POST[ 'aid' ] || !(int)$_POST[ 'aaid' ] || !(int)$_POST[ 'qid' ] ) {
             <div id="answer-messages">
 
                 <div class="form-message-ok alertyellow">
-                	<p><?php _e( "Your Answer has been saved successfully!<br />Right now redirecting to Podcast details page...", "kazaz" ); ?></p>
+                	<p><?php _e( "Your Comment has been saved successfully!<br />Right now redirecting to Podcast details page...", "kazaz" ); ?></p>
                 </div>
 
                 <div class="form-message-error alertred">
-                	<p><?php _e( "Your Answer can not be saved, server responded with error! Sorry for any inconvenience and please try again later.<br />Thanks for understanding!", "kazaz" ); ?></p>
+                	<p><?php _e( "Your Comment can not be saved, server responded with error! Sorry for any inconvenience and please try again later.<br />Thanks for understanding!", "kazaz" ); ?></p>
                 </div>
 
             </div>
