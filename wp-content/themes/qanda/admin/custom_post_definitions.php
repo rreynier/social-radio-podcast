@@ -184,7 +184,7 @@ $args_array = array(
 	'show_ui' => true,
 	'publicly_queryable' => true,
 	'menu_position' => '',
-	'menu_icon' => $ico_path_podcast,
+	'menu_icon' => '',
 	'supports' => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'custom-fields', 'comments', 'revisions' ),
 	'taxonomies' => array( 'podcast_tags' )
 );
