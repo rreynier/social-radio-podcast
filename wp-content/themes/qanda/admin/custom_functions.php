@@ -1813,7 +1813,7 @@ if( !function_exists( 'k_site_stats' ) ) :
 				'count' => TRUE
 			);
 			$approved_answers = k_round_large( get_comments( $comment_args ) );
-			$stats_string .= '<td class="number-box"><span class="number-box-tag">' . __( "answers", "kazaz" ) . '</span><span class="number-box-data">' . $approved_answers . '</span></td>';
+			$stats_string .= '<td class="number-box"><span class="number-box-tag">' . __( "comments", "kazaz" ) . '</span><span class="number-box-data">' . $approved_answers . '</span></td>';
 		}
 
 		// how many users

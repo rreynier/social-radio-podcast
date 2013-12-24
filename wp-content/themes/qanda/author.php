@@ -83,7 +83,7 @@ endif;
 
                 <td id="author-answers" class="number-box bord-right">
                     <span class="number-box-tag"><a href="<?php echo add_query_arg( 'show', 'answers' ); ?>" title="<?php printf(  __( "Show all Answers by %s", "kazaz" ), $curauth->user_login ); ?>">
-						<?php _e( "answers", "kazaz" ); ?>
+						<?php _e( "comments", "kazaz" ); ?>
                     </a></span>
                     <span class="number-box-data"><?php echo k_get_user_comments_count( $curauth->ID ); ?></span>
                 </td>
