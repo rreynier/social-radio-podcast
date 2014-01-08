@@ -504,7 +504,7 @@ class SeriouslySimplePodcasting {
 					if( $size && strlen( $size ) > 0 ) { if( ( $duration && strlen( $duration ) > 0 ) || ( $file && strlen( $file ) > 0 ) ) { $meta .= ' | '; } $meta .= __( 'Size' , 'ss-podcasting' ) . ': ' . $size; }
 					$meta .= '</aside></div>';
 
-					$content = $meta . $content;
+					$content = $content . $meta;
 				}
 
 			}

@@ -150,7 +150,7 @@ span.rep-score { font-weight: bold; cursor: default; }
 
 .true-content {  }
 .entry-title {  }
-.entry-content { overflow: hidden; margin-bottom: 10px; }
+.entry-content { margin-bottom: 10px; }
 .entry-meta-box { overflow: hidden; padding: 10px 0; }
 .entry-time-author { font-size: 90%; line-height: 1.4; padding-left: 25px; margin-bottom: 7px; width: 85%; background: url(images/icons_article/time.png) no-repeat left top transparent; }
 span.elapsed { font-weight: bold; }
