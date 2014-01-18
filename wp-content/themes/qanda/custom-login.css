@@ -131,3 +131,8 @@
     #user_pass, #user_login, #user_email {
         background: #fff;
         }
+
+
+
+.plugin #providers { float: none; }
+.oneall_social_login_providers { padding: 15px 0;  width: 157px; margin: 0 auto;  }
