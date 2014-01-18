@@ -1,30 +1,30 @@
-    #login {  
-        background:none;  
-        border:0;  
-        box-shadow:0;  
-        -moz-box-shadow: none; /* Firefox */  
-        -webkit-box-shadow: none; /* Safari, Chrome */  
-        box-shadow: none; /* CSS3 */  
-        }  
-    #nav {  
+    #login {
+        background:none;
+        border:0;
+        box-shadow:0;
+        -moz-box-shadow: none; /* Firefox */
+        -webkit-box-shadow: none; /* Safari, Chrome */
+        box-shadow: none; /* CSS3 */
+        }
+    #nav {
         background:none;
 		text-align: center;
-        }  
-    form {  
-        -moz-box-shadow: 0 4px 18px #0b0b0b;  
+        }
+    form {
+        -moz-box-shadow: 0 4px 18px #0b0b0b;
         -webkit-box-shadow: 0 4px 18px #0b0b0b;
         box-shadow: 0 4px 18px #0b0b0b;
         }
-	
+
 	#login form p.submit {
 		text-align: center;
 		padding-top: 20px;
 		margin-top: 10px;
 		border-top: 1px solid #EEE;
 	}
-	
+
 	#reg_passmail { text-align: center; color: #999999; }
-		
+
 	#login form label {
 		display: block;
 		line-height: 25px;
@@ -57,36 +57,36 @@
         margin: 0 auto;
         }
 
-    #login form#loginform #user_login, #login form#loginform #user_email, #login form#registerform #user_login, #login form#registerform #user_email, #login form#lostpasswordform #user_login, #login form#loginform #user_pass, #login form#loginform #openid_identifier   
-        {  
+    #login form#loginform #user_login, #login form#loginform #user_email, #login form#registerform #user_login, #login form#registerform #user_email, #login form#lostpasswordform #user_login, #login form#loginform #user_pass, #login form#loginform #openid_identifier
+        {
         border: 1px solid #EEEEEE;
 		padding: 3px 12px;
 		text-align: center;
 		color: #999999 !important;
-        }  
+        }
 
-    #login form .submit input {  
+    #login form .submit input {
         background-color: #DDD;
 		background-image: none;
 		box-shadow: none;
 		color: #666;
-        border: none;  
-        text-shadow: none;  
+        border: none;
+        text-shadow: none;
         padding: 5px 12px;
-		text-transform: uppercase; 
+		text-transform: uppercase;
 		float: none;
 		line-height: 1;
-        }  
+        }
 
-    #login form .submit input:hover {   
+    #login form .submit input:hover {
         background-color: salmon;
 		color: white;
-        }  
+        }
 
     #login form .submit input:active {
         padding: 5px 12px; /*reqd here for some reason */
         }
-		
+
 	body.login { background-color: #222; }
 
     body.login p#nav a {
@@ -99,7 +99,7 @@
     body.login p#nav a:hover {
         color: #666666 !important;
         text-decoration: none;
-        }   
+        }
 
     .login #backtoblog a {
         display:none;
@@ -113,15 +113,21 @@
         background: salmon;
         border: none;
         border-radius: 0;
-        }   
+        }
 
     #login .message {
         font-weight: normal;
-        color: #666;
+        color: #111111;
         text-shadow: none;
 		border: none;
 		margin: 0;
+        text-align: center;
+        font-size: 1.6em;
+        font-weight: bold;
+        background-color: #f69679;
+        padding-top: 15px;
+        padding-bottom: 15px;
         }
     #user_pass, #user_login, #user_email {
-        background: #fff;   
+        background: #fff;
         }
